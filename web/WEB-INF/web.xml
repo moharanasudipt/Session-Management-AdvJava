@@ -36,6 +36,10 @@
         <servlet-name>Hidden2</servlet-name>
         <servlet-class>Hidden2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>NewServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet2</servlet-name>
         <url-pattern>/fs</url-pattern>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>Hidden2</servlet-name>
         <url-pattern>/Hidden2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
